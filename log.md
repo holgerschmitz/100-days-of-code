@@ -1,24 +1,22 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: Saturday 24 Nov, 2018
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Started curriculum on https://www.freecodecamp.com. Forked and cloned the 100 days of code GitHub repository.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** The curriculum is probably not for me. I should focus on something more productive.
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Link to work:** [Github Repository](https://github.com/holgerschmitz/100-days-of-code)
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+### Day 1: Saturday 25 Nov, 2018
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Started a simple Angular application for coding tools
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** I've decided to write create some simple tools form myself. These include binary and hexadecimal number converters among others. I frequently find myself searching the web for these tools and it would be nice to have them all in one place.
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+**Link to work:** [Github Repository](https://github.com/holgerschmitz/100-days-of-code)
 
-
+<!--
 ### Day 1: June 27, Monday
 
 **Today's Progress**: I've gone through many exercises on FreeCodeCamp.
@@ -27,4 +25,4 @@
 
 **Link(s) to work**
 1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence) -->
