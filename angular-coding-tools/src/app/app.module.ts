@@ -7,22 +7,26 @@ import {
   MatDividerModule,
   MatIconModule,
   MatCardModule,
+  MatFormFieldModule,
+  MatInputModule,
   MatMenuModule,
   MatProgressSpinnerModule,
   MatTableModule,
   MatToolbarModule
 } from '@angular/material';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BinhexComponent } from './conversion/binhex/binhex.component';
+import { RestrictInputDirective } from './forms/restrict-input.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     BinhexComponent,
+    RestrictInputDirective,
   ],
   imports: [
     AppRoutingModule,
@@ -34,11 +38,14 @@ import { BinhexComponent } from './conversion/binhex/binhex.component';
     MatMenuModule,
     MatIconModule,
     MatCardModule,
+    MatFormFieldModule,
+    MatInputModule,
     MatButtonModule,
     MatTableModule,
     MatDividerModule,
     MatProgressSpinnerModule,
     FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

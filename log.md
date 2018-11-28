@@ -20,6 +20,10 @@
 
 **Today's Progress**: I have been looking at inputmask to restrict user input numbers in Angular forms
 
+### Day 3: Wednesday 28 Nov, 2018
+
+**Today's Progress**: I've completed my number conversion example with #Angular. I'll probably make it available online tomorrow.
+
 <!--
 ### Day 1: June 27, Monday
 

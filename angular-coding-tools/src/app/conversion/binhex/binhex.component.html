@@ -1,22 +1,19 @@
-<div class="register-content" *ngIf="!registerSuccess">
+<div class="binhex-content">
   <mat-card>
     <mat-card-content>
-      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <form [formGroup]="form">
         <h2>Number Conversion</h2>
         <mat-form-field class="full-width-input">
-          <input matInput placeholder="Decimal" formControlName="decimal">
+          <input matInput placeholder="Decimal" formControlName="decimal" app-restrict-input="decimal" (input)="onDecimalChange()">
         </mat-form-field>
         <mat-form-field class="full-width-input">
-          <mat-label></mat-label>
-          <input matInput placeholder="Hexadecimal" formControlName="hexadecimal">
+          <input matInput placeholder="Hexadecimal" formControlName="hex" app-restrict-input="hexadecimal" (input)="onHexChange()">
         </mat-form-field>
         <mat-form-field class="full-width-input">
-          <mat-label></mat-label>
-          <input matInput placeholder="Octal" formControlName="octal">
+          <input matInput placeholder="Octal" formControlName="octal" app-restrict-input="octal" (input)="onOctalChange()">
         </mat-form-field>
         <mat-form-field class="full-width-input">
-          <mat-label></mat-label>
-          <input matInput placeholder="Binary" formControlName="binary">
+          <input matInput placeholder="Binary" formControlName="binary" app-restrict-input="binary" (input)="onBinaryChange()">
         </mat-form-field>
       </form>
     </mat-card-content>
