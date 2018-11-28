@@ -16,6 +16,10 @@
 
 **Link to work:** [Github Repository](https://github.com/holgerschmitz/100-days-of-code)
 
+### Day 2: Tuesday 27 Nov, 2018
+
+**Today's Progress**: I have been looking at inputmask to restrict user input numbers in Angular forms
+
 <!--
 ### Day 1: June 27, Monday
 

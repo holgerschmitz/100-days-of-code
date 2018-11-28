@@ -1,0 +1,24 @@
+<div class="register-content" *ngIf="!registerSuccess">
+  <mat-card>
+    <mat-card-content>
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <h2>Number Conversion</h2>
+        <mat-form-field class="full-width-input">
+          <input matInput placeholder="Decimal" formControlName="decimal">
+        </mat-form-field>
+        <mat-form-field class="full-width-input">
+          <mat-label></mat-label>
+          <input matInput placeholder="Hexadecimal" formControlName="hexadecimal">
+        </mat-form-field>
+        <mat-form-field class="full-width-input">
+          <mat-label></mat-label>
+          <input matInput placeholder="Octal" formControlName="octal">
+        </mat-form-field>
+        <mat-form-field class="full-width-input">
+          <mat-label></mat-label>
+          <input matInput placeholder="Binary" formControlName="binary">
+        </mat-form-field>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>
