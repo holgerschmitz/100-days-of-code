@@ -24,6 +24,10 @@
 
 **Today's Progress**: I've completed my number conversion example with #Angular. I'll probably make it available online tomorrow.
 
+### Day 4: Wednesday 28 Nov, 2018
+
+**Today's Progress**: Updated index.html to match my personal website design. Uploaded to server.
+
 <!--
 ### Day 1: June 27, Monday
 

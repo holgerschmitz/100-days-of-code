@@ -1,21 +1,31 @@
-<div class="binhex-content">
-  <mat-card>
-    <mat-card-content>
-      <form [formGroup]="form">
-        <h2>Number Conversion</h2>
-        <mat-form-field class="full-width-input">
-          <input matInput placeholder="Decimal" formControlName="decimal" app-restrict-input="decimal" (input)="onDecimalChange()">
-        </mat-form-field>
-        <mat-form-field class="full-width-input">
-          <input matInput placeholder="Hexadecimal" formControlName="hex" app-restrict-input="hexadecimal" (input)="onHexChange()">
-        </mat-form-field>
-        <mat-form-field class="full-width-input">
-          <input matInput placeholder="Octal" formControlName="octal" app-restrict-input="octal" (input)="onOctalChange()">
-        </mat-form-field>
-        <mat-form-field class="full-width-input">
-          <input matInput placeholder="Binary" formControlName="binary" app-restrict-input="binary" (input)="onBinaryChange()">
-        </mat-form-field>
-      </form>
-    </mat-card-content>
-  </mat-card>
-</div>
+<h1>Number Conversion</h1>
+
+<mat-card>
+  <mat-card-content>
+    <form [formGroup]="form">
+      <mat-form-field class="full-width-input">
+        <input matInput placeholder="Decimal" formControlName="decimal" app-restrict-input="decimal" (input)="onDecimalChange()">
+      </mat-form-field>
+      <mat-form-field class="full-width-input">
+        <input matInput placeholder="Hexadecimal" formControlName="hex" app-restrict-input="hexadecimal" (input)="onHexChange()">
+      </mat-form-field>
+      <mat-form-field class="full-width-input">
+        <input matInput placeholder="Octal" formControlName="octal" app-restrict-input="octal" (input)="onOctalChange()">
+      </mat-form-field>
+      <mat-form-field class="full-width-input">
+        <input matInput placeholder="Binary" formControlName="binary" app-restrict-input="binary" (input)="onBinaryChange()">
+      </mat-form-field>
+    </form>
+  </mat-card-content>
+</mat-card>
+
+<p>
+  <br />
+  Easy number conversion. Simply start entering a number in any one of the fields.
+</p>
+<p>
+  This little example was created using Angular 7.
+</p>
+<p>
+  Find the code on <a href="https://github.com/holgerschmitz/100-days-of-code">GitHub</a>.
+</p>
